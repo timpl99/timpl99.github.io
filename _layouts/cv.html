@@ -15,7 +15,11 @@ layout: default
         {% for section in site.data.cv.education %}
           <p class="fw-bold">{{ section.title }}</p>
           <p>{{ section.description }}</p>
-		  {% unless section.title == '' %}
+		  {% unless section.thesis == nil %}
+			<p>Thesis2: <a href="{{ section.link }}" target="_blank">{{ section.thesis }}</a></p>
+		  {% endunless %}
+		  
+		  {% unless section.thesis == '' %}
 			<p>Thesis2: <a href="{{ section.link }}" target="_blank">{{ section.thesis }}</a></p>
 		  {% endunless %}
         {% endfor %}
