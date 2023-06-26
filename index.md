@@ -7,7 +7,7 @@ I am PhD student at the <a href="https://web.mat.bham.ac.uk/combinatorics/">Comb
 
 My research interests include:
 <ul>
-<li> Structural graph theory </li>
-<li> Geometric graph theory </li>
-<li> Graph theory in three dimensions </li>
+	<li> Structural graph theory </li>
+	<li> Geometric graph theory </li>
+	<li> Graph theory in three dimensions </li>
 </ul>
