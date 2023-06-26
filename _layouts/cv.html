@@ -16,7 +16,7 @@ layout: default
           <p class="fw-bold">{{ section.title }}</p>
           <p>{{ section.description }}</p>
 		  {% if section.title %}
-			<p><a href="{{ section.link }}">{{ section.thesis }}</a></p>
+			<p>Thesis: <a href="{{ section.link }}" target="_blank">{{ section.thesis }}</a></p>
 		  {% endif %}
         {% endfor %}
       </div>
