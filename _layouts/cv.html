@@ -17,6 +17,7 @@ layout: default
           <p>{{ section.description }}</p>
 		  {% if section.title %}
 			<p>Thesis: <a href="{{ section.link }}" target="_blank">{{ section.thesis }}</a></p>
+		  {% else %}
 		  {% endif %}
         {% endfor %}
       </div>
