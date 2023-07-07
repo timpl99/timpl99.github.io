@@ -1,7 +1,8 @@
 menu:
-- {name: 'publications', url: '/publications'}
-- {name: 'cv', url: '/cv'}
-- {name: 'contact', url: '/contact'}
+- {name: 'Home', url: '/'}
+- {name: 'Publications', url: '/publications'}
+- {name: 'CV', url: '/cv'}
+- {name: 'Contact', url: '/contact'}
 
 social:
 - {icon: 'linkedin', link: 'https://de.linkedin.com/in/timplanken'}
