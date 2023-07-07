@@ -8,4 +8,10 @@ social:
 - {icon: 'linkedin', link: 'https://linkedin.com/in/timplanken'}
 
 contacts:
-- {name: 'Tim Planken', title: 'PhD Student', department: 'School of Mathematics', institution: 'University of Birmingham', email: 'txp265 at student.bham.ac.uk', image: 'assets/img/contact.jpg'}
+- {name: 'Tim Planken',
+   title: 'PhD Student',
+   department: 'School of Mathematics',
+   institution: 'University of Birmingham',
+   email: 'txp265 at student.bham.ac.uk',
+   image: 'assets/img/contact.jpg'
+  }
