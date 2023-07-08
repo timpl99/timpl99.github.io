@@ -1,6 +1,6 @@
 {% for item in site.data.coauthors.coauthors %}
-	{% if item.short == 'test' %}
-		<a href="{{ item.url }}">{{ item.name }} 1</a>
+	{% if item.short == include.short | strip %}
+		<a href="{{ item.url }}">{{ item.name }}</a>
 	{% endif %}
-	"{{ include.short }}"
+	"{{ item.short }}"
 {% endfor %}
