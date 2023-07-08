@@ -2,7 +2,9 @@
   <div>
     <h3 class="fw-bold border-bottom pb-3 mb-5">Publications and Preprints</h3>
 	  {% for item in site.data.publications.index %}
-		<p><i>{{ item.name }}</i>{% if item.coauthors %} (with {% for coauth in item.coauthors %}{% if forloop.first %}{% include coauthor.html short=coauth %}{% elsif forloop.last %} and {% include coauthor.html short=coauth %}{% else %}, {% include coauthor.html short=coauth %}{% endif %}{% endfor %}){% endif %}, {{ item.year }}, {{ item.journal }} (<a href="{{ item.arxiv }}" class="link">arxiv</a>)</p>
+	    {% capture jointWork %}{% if item.coauthors %} (with {% for coauth in item.coauthors %}{% if forloop.first %}{% include coauthor.html short=coauth %}{% elsif forloop.last %} and {% include coauthor.html short=coauth %}{% else %}, {% include coauthor.html short=coauth %}{% endif %}{% endfor %}){% endif %}{% endcapture %}
+		{% capture links %}(<a href="{{ item.arxiv }}" class="link">arxiv</a>){% endcapture %}
+		<p><i>{{ item.name }}</i>{{ jointWork }}, {{ item.year }}, {{ item.journal }} {{ links }}</p>
 	  {% endfor %}
   </div>
 </div>
