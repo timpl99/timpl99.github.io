@@ -1,5 +1,1 @@
-{% for item in site.data.coauthors.coauthors %}
-	{% capture s1 %}{{ item.short }}{% endcapture %}
-	{% capture s2 %}{{ include.short }}{% endcapture %}
-	{% if s1 == s2 %}<a href="{{ item.url }}" class="link">{{ item.name }}</a>{% endif %}
-{% endfor %}
+{% for item in site.data.coauthors.coauthors %}{% capture s1 %}{{ item.short }}{% endcapture %}{% capture s2 %}{{ include.short }}{% endcapture %}{% if s1 == s2 %}<a href="{{ item.url }}" class="link">{{ item.name }}</a>{% endif %}{% endfor %}
