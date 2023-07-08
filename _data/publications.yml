@@ -6,3 +6,10 @@ index:
     journal: 'Preprint',
     year: 2023
     }
+
+- {
+    name: 'Test', 
+    arxiv: 'https://arxiv.org',
+    journal: 'Preprint',
+    year: 2023
+    }

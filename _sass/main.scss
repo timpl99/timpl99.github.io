@@ -13,7 +13,7 @@ body a {
   color: $linkColor;
 }
 
-body a .link {
-  color: blue;
+.link {
+  color: blue !important;
   text-decoration: none;
 }
