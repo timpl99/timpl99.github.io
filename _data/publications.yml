@@ -1,7 +1,7 @@
 index:
 - {
     name: 'Test', 
-    coauthors: {'test', 'test', 'test'},
+    coauthors: {'test'},
     arxiv: 'https://arxiv.org',
     journal: 'Preprint',
     year: 2023
