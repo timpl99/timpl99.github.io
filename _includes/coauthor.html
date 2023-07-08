@@ -2,5 +2,5 @@
 	{% if item.short == 'test' %}
 		<a href="{{ item.url }}">{{ item.name }} 1</a>
 	{% endif %}
-	{{ include.short }}
+	{{ include.short | strip }}
 {% endfor %}
