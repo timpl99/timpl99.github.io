@@ -10,7 +10,7 @@
 			{% else %}
 				, {% include coauthor.html short=coauth %}
 			{% endif %}
-		{% endfor %}), {{ item.year }}, {{ item.journal }} (<a href="{{ item.arxiv }}">arxiv</a>)</p>
+		{% endfor %}), {{ item.year }}, {{ item.journal }} (<a href="{{ item.arxiv }}" class="link">arxiv</a>)</p>
 	  {% endfor %}
   </div>
 </div>
