@@ -1,0 +1,5 @@
+{% for item in site.data.coauthors.coauthors %}
+	{% if item.short == include.short %}
+		<a href="{{ item.url }}">{{ item.name }}</a>
+	{% endif %}
+{% endfor %}

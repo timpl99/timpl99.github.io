@@ -1,2 +1,8 @@
-featured:
-- {name: 'In work'}
+index:
+- {
+    name: 'Test', 
+    coauthors: {test},
+    arxiv: 'arxiv.org',
+    journal: 'submitted',
+    year: 2023
+    }

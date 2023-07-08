@@ -1,14 +1,16 @@
 <div class="row g-5 mb-5">
   <div>
     <h3 class="fw-bold border-bottom pb-3 mb-5">Publications and Preprints</h3>
-    {% if page.title == "Home" %}
-      {% for item in site.data.publications.index %}
-        <p><a href="{{ item.url }}">{{ item.name }}</a></p>
-      {% endfor %}
-    {% else %}
-      {% for item in site.data.publications.index %}
-        <p><a href="{{ item.url }}">{{ item.name }}</a></p>
-      {% endfor %}
-    {% endif %}
+	  {% for item in site.data.publications.index %}
+		<p>(with {% for coauth in item.coauthors %}
+			{% if forloop.first %}
+				{{ include coauthor.html short=coauth.short }}
+			{% elsif forloop.last %}
+				and {{ include coauthor.html short=coauth.short }}
+			{% else %}
+				, {{ include coauthor.html short=coauth.short }}
+			{% endif %}
+		{% endfor %}) <i>{{ item.name }}</i>, {{ item.year }}, {{ item.journal }} (<a href="{{ item.arxiv }}">arxiv</a>)</p>
+	  {% endfor %}
   </div>
 </div>
