@@ -1,11 +1,11 @@
 index:
+#- {
+#    title: 'Cops and Invisible Robbers in \(k\)-Connected Graphs of Treewidth \(k\)',
+#    journal: 'in preparation',
+#    year: 2023
+#}
 - {
-    title: 'Cops and Invisible Robbers in \(k\)-Connected Graphs of Treewidth \(k\)',
-    journal: 'in preparation',
-    year: 2023
-}
-- {
-    title: 'Polychromatic Colorings of Geometric Hypergraphs via Shallow Hitting Sets \( \nabla_\boldsymbol{x} J(\boldsymbol{x}) \)',
+    title: 'Polychromatic Colorings of Geometric Hypergraphs via Shallow Hitting Sets',
     coauthors: {'ueckerdt'},
     journal: 'in preparation',
     year: 2023
