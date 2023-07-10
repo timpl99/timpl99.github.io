@@ -1,15 +1,15 @@
 index:
 - {
-    name: 'Test', 
-    coauthors: {'test'},
+    name: 'Shallow Hitting Edge Sets in Uniform Hypergraphs', 
+    coauthors: {'ueckerdt'},
     arxiv: 'https://arxiv.org',
     journal: 'Preprint',
     year: 2023
-    }
-
+  }
 - {
-    name: 'Test', 
+    name: 'Polychromatic Colorings of Geometric Hypergraphs via Shallow Hitting Sets',
+    coauthors: {'ueckerdt'},
     arxiv: 'https://arxiv.org',
-    journal: 'Preprint',
+    journal: 'in preparation',
     year: 2023
-    }
+}
