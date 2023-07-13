@@ -1,5 +1,11 @@
 index:
 #- {
+#    title: 'Colouring \(d\)-dimensional triangulations',
+#    journal: 'in preparation',
+#    year: 2023
+#}
+
+#- {
 #    title: 'Cops and Invisible Robbers in \(k\)-Connected Graphs of Treewidth \(k\)',
 #    journal: 'in preparation',
 #    year: 2023
@@ -7,13 +13,13 @@ index:
 - {
     title: 'Polychromatic Colorings of Geometric Hypergraphs via Shallow Hitting Sets',
     coauthors: {'ueckerdt'},
-    journal: 'in preparation',
+    journal: 'Preprint',
     year: 2023
 }
 - {
     title: 'Shallow Hitting Edge Sets in Uniform Hypergraphs', 
     coauthors: {'ueckerdt'},
-    arxiv: 'https://arxiv.org',
+    arxiv: 'https://arxiv.org/abs/2307.05757',
     journal: 'Preprint',
     year: 2023
   }
