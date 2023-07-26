@@ -7,6 +7,8 @@ menu:
 social:
 - {icon: 'linkedin', link: 'https://linkedin.com/in/timplanken'}
 - {icon: 'orcid', link: 'https://orcid.org/0009-0007-1659-9221'}
+- {icon: 'researchgate', link: 'https://www.researchgate.net/profile/Tim-Planken'}
+- {icon: 'google', link: 'https://scholar.google.com/citations?user=y5JLxjoAAAAJ'}
 
 contacts:
 - {name: 'Tim Planken',
