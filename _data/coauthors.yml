@@ -11,7 +11,3 @@ coauthors:
     name: 'Jan Kurkofka',
     url: 'https://web.mat.bham.ac.uk/J.Kurkofka/'
   }
-- { short: 'test',
-    name: 'Max Mustermann',
-    url: 'https://timplanken.de'
-  }
