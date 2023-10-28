@@ -3,7 +3,7 @@ layout: home
 title: "Home"
 ---
 
-I am PhD student at the University of Birmingham under supervision of <a href="https://web.mat.bham.ac.uk/J.Carmesin/" class="link">Johannes Carmesin</a>.
+I am a PhD student at the University of Birmingham under supervision of <a href="https://web.mat.bham.ac.uk/J.Carmesin/" class="link">Johannes Carmesin</a>.
 
 My research interests include:
 <ul>
