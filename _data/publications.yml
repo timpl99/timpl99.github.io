@@ -17,12 +17,10 @@ index:
     coauthors: {'ueckerdt'},
     journal: 'Preprint',
     arxiv: 'https://arxiv.org/abs/2310.19982',
-    year: 2023
 }
 - {
     title: 'Shallow Hitting Edge Sets in Uniform Hypergraphs', 
     coauthors: {'ueckerdt'},
     arxiv: 'https://arxiv.org/abs/2307.05757',
     journal: 'Preprint',
-    year: 2023
   }
