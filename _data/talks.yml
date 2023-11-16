@@ -1,5 +1,11 @@
 index:
 - {
+    title: 'Colouring d-dimensional triangulations',
+    date: '16th November 2023',
+    place: 'University of Birmingham',
+    seminar: 'Combinatorics Seminar',
+}
+- {
     title: 'Polychromatic Colorings of Geometric Hypergraphs via Shallow Hitting Sets',
     date: '3rd November 2023',
     place: 'London School of Economics',
