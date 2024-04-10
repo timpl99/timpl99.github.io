@@ -13,8 +13,8 @@ social:
 contacts:
 - {name: 'Tim Planken',
    title: 'PhD Student',
-   department: 'School of Mathematics',
-   institution: 'University of Birmingham',
-   email: 'txp265 at student.bham.ac.uk',
+   department: 'Faculty of Mathematics and Computer Science',
+   institution: 'TU Bergakademie Freiberg',
+   email: 'tim.planken at math.tu-freiberg.de',
    image: 'assets/img/profile.jpeg'
   }
