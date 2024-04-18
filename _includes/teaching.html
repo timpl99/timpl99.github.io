@@ -5,7 +5,7 @@
 		  <p>{{ item.semester }}</p>
 		  <ul>
 			{% for ex in item.exercises %}
-				<li href="{{ ex.link }}">{{ ex.name }}</li>
+				<li>{{ ex.name }} (<a href="{{ ex.link }}">link</a>)</li>
 			{% endfor %}
 		  </ul>
 	    {% endfor %}
