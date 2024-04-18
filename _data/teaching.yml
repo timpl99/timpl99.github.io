@@ -1,8 +1,8 @@
 ---
 index:
-  - semester: Sommersemester 2024
+  - semester: Summer term 2024
     exercises:
-      - name: Komplexitätstheorie
+      - name: Komplexitaetstheorie
         link: https://bildungsportal.sachsen.de/opal/auth/RepositoryEntry/44095930369
       - name: Algorithmic Graph Theory II
         link: https://bildungsportal.sachsen.de/opal/auth/RepositoryEntry/44094717954
