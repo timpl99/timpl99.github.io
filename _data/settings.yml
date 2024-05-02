@@ -16,5 +16,6 @@ contacts:
    department: 'Faculty of Mathematics and Computer Science',
    institution: 'TU Bergakademie Freiberg',
    email: 'tim.planken at math.tu-freiberg.de',
+   office: 'Prüferstraße 1, Zimmer 1.06',
    image: 'assets/img/profile.jpeg'
   }
