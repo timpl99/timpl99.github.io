@@ -1,5 +1,29 @@
 index:
 - {
+    title: 'Balanced colorings of geometric hypergraphs',
+    date: '18th June 2024',
+    place: 'HTW Dresden',
+    seminar: 'SEG Workshop on Combinatorics, Graph Theory and Algorithms'
+}
+- {
+    title: 'Polychromatic Colorings of Geometric Hypergraphs via Shallow Hitting Sets',
+    date: '11th June 2024',
+    place: 'Athens',
+    seminar: 'Symposium of Computational Geometry 2024'
+}
+- {
+    title: 'Balanced colorings of geometric hypergraphs',
+    date: '28th May 2024',
+    place: 'Rathen',
+    seminar: 'C5 Graph Theory Workshop'
+}
+- {
+    title: 'Colouring d-dimensional triangulations',
+    date: '15th May 2024',
+    place: 'TU Bergakademie Freiberg',
+    seminar: 'Seminar Diskrete Mathematik und Algebra'
+}
+- {
     title: 'Colouring d-dimensional triangulations',
     date: '16th November 2023',
     place: 'University of Birmingham',
