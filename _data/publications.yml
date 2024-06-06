@@ -17,7 +17,8 @@ index:
     coauthors: {'ueckerdt'},
     journal: 'SoCG 2024',
     arxiv: 'https://arxiv.org/abs/2310.19982',
-    doi: 'https://doi.org/10.4230/LIPIcs.SoCG.2024.74'
+    doi: 'https://doi.org/10.4230/LIPIcs.SoCG.2024.74',
+    doiText: 'Conference Proceedings'
 }
 - {
     title: 'Shallow Hitting Edge Sets in Uniform Hypergraphs', 

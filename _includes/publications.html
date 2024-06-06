@@ -4,7 +4,7 @@
 	  {% for item in site.data.publications.index %}
 	    {% capture jointWork %}{% if item.coauthors %} (with {% for coauth in item.coauthors %}{% if forloop.first %}{% include coauthor.html short=coauth %}{% elsif forloop.last %} and {% include coauthor.html short=coauth %}{% else %}, {% include coauthor.html short=coauth %}{% endif %}{% endfor %}){% endif %}{% endcapture %}
 		{% capture arx %}{% if item.arxiv %}<a href="{{ item.arxiv }}" class="link">arxiv</a>{% endif %}{% endcapture %}
-		{% capture doi %}{% if item.doi %}<a href="{{ item.doi }}" class="link">journal</a>{% endif %}{% endcapture %}
+		{% capture doi %}{% if item.doi %}<a href="{{ item.doi }}" class="link">{{ item.doiText }}</a>{% endif %}{% endcapture %}
 		{% capture links %}{% if item.arxiv %}({{ arx }}{% if item.doi %} | {{ doi }}{% endif %}){% endif %}{% endcapture %}
 		{% capture year %}{% if item.year %}, {{ item.year }}{% endif %}{% endcapture %}
 		<p><i>{{ item.title }}</i>{{ jointWork }}{{ year }}, {{ item.journal }} {{ links }}</p>
