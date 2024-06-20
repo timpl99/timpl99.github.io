@@ -3,7 +3,7 @@ layout: home
 title: "Home"
 ---
 
-I am a PhD student at the Freiberg University of Technology under supervision of <a href="https://web.mat.bham.ac.uk/J.Carmesin/" class="link">Johannes Carmesin</a>.
+I am a PhD student at the Freiberg University of Technology under supervision of <a href="https://j-carmesin.github.io/" class="link">Johannes Carmesin</a>.
 
 My research interests include:
 <ul>
