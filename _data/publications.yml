@@ -1,10 +1,10 @@
 index:
-#- {
-#    title: 'Colouring \(d\)-dimensional triangulations',
-#    journal: 'Preprint',
-#    arxiv: 'https://arxiv.org',
-#    year: 2023
-#}
+- {
+    title: 'Colouring the 1-skeleton of \(d\)-dimensional triangulations',
+    journal: 'Preprint',
+    arxiv: 'https://arxiv.org/abs/2409.11762',
+    year: 2024
+}
 
 #- {
 #    title: 'Cops and Invisible Robbers in \(k\)-Connected Graphs of Treewidth \(k\)',
