@@ -4,6 +4,8 @@ index:
     exercises:
       - name: 'Diskrete Strukturen 1: Logik und algebraische Strukturen'
         link: https://bildungsportal.sachsen.de/opal/
+      - name: Grundlagen der Diskreten Mathematik und Algebra 1
+        link: https://bildungsportal.sachsen.de/opal/
   - semester: Summer term 2024
     exercises:
       - name: Komplexitätstheorie
