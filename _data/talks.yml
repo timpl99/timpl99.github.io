@@ -1,5 +1,11 @@
 index:
 - {
+    title: 'Colouring the 1-skeleton of d-dimensional triangulations',
+    date: '5th November 2024',
+    place: 'Heidelberg University',
+    seminar: 'Research Seminar'
+}
+- {
     title: 'Balanced colorings of geometric hypergraphs',
     date: '18th June 2024',
     place: 'HTW Dresden',
