@@ -1,5 +1,11 @@
 index:
 - {
+    title: 'Linear-time algorithms in graph connectivity',
+    date: '13th November 2024',
+    place: 'TU Bergakademie Freiberg',
+    seminar: 'Seminar Diskrete Mathematik und Algebra'
+}
+- {
     title: 'Colouring the 1-skeleton of d-dimensional triangulations',
     date: '5th November 2024',
     place: 'Heidelberg University',
