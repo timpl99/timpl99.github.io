@@ -11,3 +11,19 @@ coauthors:
     name: 'Jan Kurkofka',
     url: 'https://web.mat.bham.ac.uk/J.Kurkofka/'
   }
+- { short: 'demeyer',
+    name: 'Lucas De Meyer',
+    url: 'https://perso.liris.cnrs.fr/ldemeyer/home.html'
+  }
+- { short: 'legrand',
+    name: 'Clément Legrand-Duchesne',
+    url: 'https://johnlepoulpe.github.io/'
+  }
+- { short: 'leon',
+    name: 'Jared León',
+    url: 'https://wozmit.github.io/'
+  }
+- { short: 'tamitegama',
+    name: 'Youri Tamitegama',
+    url: 'https://www.maths.ox.ac.uk/people/youri.tamitegama'
+  }

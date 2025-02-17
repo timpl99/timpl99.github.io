@@ -1,17 +1,23 @@
 index:
-- {
-    title: 'Colouring the 1-skeleton of \(d\)-dimensional triangulations',
-    journal: 'Preprint',
-    arxiv: 'https://arxiv.org/abs/2409.11762',
-    year: 2024
-}
-
 #- {
 #    title: 'Cops and Invisible Robbers in \(k\)-Connected Graphs of Treewidth \(k\)',
 #    journal: 'Preprint',
 #    arxiv: 'https://arxiv.org',
 #    year: 2023
 #}
+- {
+    title: 'A Recolouring Version of a Conjecture of Reed',
+    coauthors: {'demeyer', 'legrand', 'leon', 'tamitegama'},
+    journal: 'Preprint',
+    arxiv: 'https://arxiv.org/abs/2502.10147',
+    year: 2024
+}
+- {
+    title: 'Colouring the 1-skeleton of \(d\)-dimensional triangulations',
+    journal: 'Preprint',
+    arxiv: 'https://arxiv.org/abs/2409.11762',
+    year: 2024
+}
 - {
     title: 'Polychromatic Colorings of Geometric Hypergraphs via Shallow Hitting Sets',
     coauthors: {'ueckerdt'},
