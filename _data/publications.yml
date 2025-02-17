@@ -10,7 +10,7 @@ index:
     coauthors: {'demeyer', 'legrand', 'leon', 'tamitegama'},
     journal: 'Preprint',
     arxiv: 'https://arxiv.org/abs/2502.10147',
-    year: 2024
+    year: 2025
 }
 - {
     title: 'Colouring the 1-skeleton of \(d\)-dimensional triangulations',
