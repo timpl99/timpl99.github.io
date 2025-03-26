@@ -1,5 +1,11 @@
 ---
 index:
+  - semester: Summer term 2025
+    exercises:
+      - name: 'Diskrete Strukturen 2: Kryptographie und Graphen'
+        link: https://bildungsportal.sachsen.de/opal/auth/RepositoryEntry/48785326081/CourseNode/1712629881956058007
+      - name: Grundlagen der Diskreten Mathematik und Algebra 2
+        link: https://bildungsportal.sachsen.de/opal/auth/RepositoryEntry/48785326081/CourseNode/1712629881956058007
   - semester: Winter term 2024
     exercises:
       - name: 'Diskrete Strukturen 1: Logik und algebraische Strukturen'
