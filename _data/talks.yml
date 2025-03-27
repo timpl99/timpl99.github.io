@@ -1,5 +1,11 @@
 index:
 - {
+    title: 'A Tutte-type canonical decomposition of 4-connected graphs',
+    date: '15th April 2025',
+    place: 'University of Hamburg',
+    seminar: 'Forschungsseminar Diskrete Mathematik'
+}
+- {
     title: 'Linear-time algorithms in graph connectivity',
     date: '13th November 2024',
     place: 'TU Bergakademie Freiberg',
