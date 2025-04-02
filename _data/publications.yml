@@ -6,6 +6,13 @@ index:
 #    year: 2023
 #}
 - {
+    title: 'A Tutte-type canonical decomposition of 4-connected graphs',
+    coauthors: {'kurkofka'},
+    journal: 'Preprint',
+    arxiv: 'https://arxiv.org/abs/2504.00760',
+    year: 2025
+}
+- {
     title: 'A Recolouring Version of a Conjecture of Reed',
     coauthors: {'demeyer', 'legrand', 'leon', 'tamitegama'},
     journal: 'Preprint',
