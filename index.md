@@ -8,8 +8,9 @@ I am a PhD student at the Freiberg University of Technology under supervision of
 My research interests include:
 <ul>
 	<li> Structural graph theory </li>
+	<li> Graph-minor theory </li>
 	<li> Graph connectivity </li>
-	<li> Graph decompositions </li>
+	<li> Tree decompositions </li>
 	<li> Graph theory in three dimensions </li>
 	<li> Geometric graph theory </li>
 	<li> Algorithms and NP-hardness </li>
