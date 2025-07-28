@@ -1,0 +1,17 @@
+<div class="row mb-5">
+  <div>
+    <h3 class="fw-bold border-bottom pb-3 mb-5">News</h3>
+	  <p>Upcoming</p>
+	  <ul>
+		{% for item in site.data.visits.upcoming.index %}
+			<li>{{ item.duration }} {{ item.description }}</li>
+		{% endfor %}
+	  </ul>
+	  <p>Past</p>
+	  <ul>
+		{% for item in site.data.visits.past.index %}
+			<li>{{ item.duration }} {{ item.description }}</li>
+		{% endfor %}
+	  </ul>
+  </div>
+</div>
