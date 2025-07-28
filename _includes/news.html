@@ -4,13 +4,13 @@
 	  <p>Upcoming</p>
 	  <ul>
 		{% for item in site.data.news.upcoming %}
-			<li>{{ item.duration }} {{ item.description }}</li>
+			<li>{{ item.duration }}: {{ item.description }}</li>
 		{% endfor %}
 	  </ul>
 	  <p>Past</p>
 	  <ul>
 		{% for item in site.data.news.past %}
-			<li>{{ item.duration }} {{ item.description }}</li>
+			<li>{{ item.duration }}: {{ item.description }}</li>
 		{% endfor %}
 	  </ul>
   </div>
