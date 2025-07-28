@@ -3,13 +3,13 @@
     <h3 class="fw-bold border-bottom pb-3 mb-5">News</h3>
 	  <p>Upcoming</p>
 	  <ul>
-		{% for item in site.data.visits.upcoming.index %}
+		{% for item in site.data.news.upcoming.index %}
 			<li>{{ item.duration }} {{ item.description }}</li>
 		{% endfor %}
 	  </ul>
 	  <p>Past</p>
 	  <ul>
-		{% for item in site.data.visits.past.index %}
+		{% for item in site.data.news.past.index %}
 			<li>{{ item.duration }} {{ item.description }}</li>
 		{% endfor %}
 	  </ul>
