@@ -2,7 +2,7 @@
 upcoming:
   - description: Bertinoro Workshop on Algorithms and Graphs (<a href="https://bwag25.bici.events/" class="link">BWAG25</a>) in Bertinoro (Italy)
     duration: Oct 27-31, 2025
-  - description: Research visit with <a href="https://www.labri.fr/perso/mbonamy/" class="link">Marthe Bonamy</a> in Bordeaux
+  - description: Research visit with <a href="https://www.labri.fr/perso/mbonamy/" class="link">Marthe Bonamy</a> in Bordeaux (France)
     duration: Oct 6-24, 2025
   - description: <a href="https://j-carmesin.github.io/proofbench/proofbench.html" class="link">ProofBench Workshop</a> in Freiberg
     duration: Sep 22 - Oct 3, 2025
@@ -10,7 +10,7 @@ upcoming:
     duration: Sep 15-19, 2025
 
 past:
-  - description: Workshop Early Career Researchers in Combinatorics (<a href="https://icms.ac.uk/activities/workshop/early-career-researchers-in-combinatorics-ecric24/" class="link">ECRiC24</a>)
+  - description: Workshop Early Career Researchers in Combinatorics (<a href="https://icms.ac.uk/activities/workshop/early-career-researchers-in-combinatorics-ecric24/" class="link">ECRiC24</a>) in Edinburgh
     duration: July 15-19, 2024
   - description: <a href="https://socg24.athenarc.gr/socg.html" class="link">SoCG24</a> in Athens
     duration: June 11-14, 2024
