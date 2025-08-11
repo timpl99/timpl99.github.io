@@ -27,3 +27,7 @@ coauthors:
     name: 'Youri Tamitegama',
     url: 'https://www.maths.ox.ac.uk/people/youri.tamitegama'
   }
+- { short: 'bourneuf',
+    name: 'Romain Bourneuf',
+    url: 'https://perso.ens-lyon.fr/romain.bourneuf/'
+  }
