@@ -4,35 +4,28 @@ index:
 #    coauthors: {'brause'},
 #    journal: 'Preprint',
 #    arxiv: 'https://arxiv.org',
-#    year: 2024
+#    year: 2025
 #}
 #- {
 #    title: 'Angry triangulations',
 #    coauthors: {'devine', 'kurkofka'},
 #    journal: 'Preprint',
 #    arxiv: 'https://arxiv.org',
-#    year: 2024
-#}
-#- {
-#    title: 'Computing the Tutte-decomposition in linear time',
-#    coauthors: {'bourneuf'},
-#    journal: 'Preprint',
-#    arxiv: 'https://arxiv.org',
-#    year: 2024
-#}
-#- {
-#    title: 'Computing the Tri-decomposition in linear time',
-#    coauthors: {'bourneuf', 'carmesin', 'kurkofka'},
-#    journal: 'Preprint',
-#    arxiv: 'https://arxiv.org',
-#    year: 2024
+#    year: 2025
 #}
 #- {
 #    title: 'Cops and Invisible Robbers in \(k\)-Connected Graphs of Treewidth \(k\)',
 #    journal: 'Preprint',
 #    arxiv: 'https://arxiv.org',
-#    year: 2023
+#    year: 2025
 #}
+- {
+    title: 'A Structural Linear-Time Algorithm for Computing the Tutte Decomposition',
+    coauthors: {'bourneuf'},
+    journal: 'Preprint',
+    arxiv: 'https://arxiv.org/abs/2508.06212',
+    year: 2025
+}
 - {
     title: 'A Tutte-type canonical decomposition of 4-connected graphs',
     coauthors: {'kurkofka'},
