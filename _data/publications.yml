@@ -27,7 +27,7 @@ index:
     year: 2025
 }
 - {
-    title: 'A Tutte-type canonical decomposition of 4-connected graphs',
+    title: 'A Tutte-type canonical decomposition of 3- and 4-connected graphs',
     coauthors: {'kurkofka'},
     journal: 'Preprint',
     arxiv: 'https://arxiv.org/abs/2504.00760',
