@@ -1,5 +1,9 @@
 ---
 index:
+  - semester: Winter term 2025
+    exercises:
+      - name: 'Algorithmic Graph Theory I'
+        link: https://bildungsportal.sachsen.de/opal/
   - semester: Summer term 2025
     exercises:
       - name: 'Diskrete Strukturen 2: Kryptographie und Graphen'
