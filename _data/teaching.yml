@@ -10,6 +10,8 @@ index:
         link: https://bildungsportal.sachsen.de/opal/auth/RepositoryEntry/48785326081/CourseNode/1712629881956058007
       - name: Grundlagen der Diskreten Mathematik und Algebra 2
         link: https://bildungsportal.sachsen.de/opal/auth/RepositoryEntry/48785326081/CourseNode/1712629881956058007
+      - name: Probe-Uni Mathematik und Informatik
+        link: https://tu-freiberg.de/events/probe-uni-mathematik-und-informatik
   - semester: Winter term 2024
     exercises:
       - name: 'Diskrete Strukturen 1: Logik und algebraische Strukturen'
