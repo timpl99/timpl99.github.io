@@ -1,5 +1,11 @@
 index:
 - {
+    title: 'A Tutte-type canonical decomposition of 3- and 4-connected graphs',
+    date: '10th October 2025',
+    place: 'University of Bordeaux',
+    seminar: 'Graphs & Optimization seminar'
+}
+- {
     title: 'A Tutte-type canonical decomposition of 4-connected graphs',
     date: '15th April 2025',
     place: 'University of Hamburg',
