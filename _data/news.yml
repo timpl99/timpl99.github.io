@@ -2,12 +2,12 @@
 upcoming:
   - description: presenting <i>A Tutte-type canonical decomposition of 3- and 4-connected graphs</i> at <a href="https://www.siam.org/conferences-events/siam-conferences/soda26/" class="link">SODA26</a> in Vancouver
     duration: Jan 11-14, 2026
+
+past:
   - description: participant at the Bertinoro Workshop on Algorithms and Graphs (<a href="https://bwag25.bici.events/" class="link">BWAG25</a>) in Bertinoro (Italy)
     duration: Oct 27-31, 2025
   - description: Research visit with <a href="https://www.labri.fr/perso/mbonamy/" class="link">Marthe Bonamy</a> in Bordeaux (France)
     duration: Oct 6-24, 2025
-
-past:
   - description: participant at the <a href="https://j-carmesin.github.io/proofbench/proofbench.html" class="link">ProofBench Workshop</a> in Freiberg
     duration: Sep 22 - Oct 3, 2025
   - description: participant at the <a href="https://j-carmesin.github.io/summerschool25/" class="link">Ukrainian Summer School in Combinatorics 2025</a> in Freiberg
