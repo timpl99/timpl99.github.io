@@ -13,9 +13,6 @@
 		{% for item in site.data.news.past %}
 			<li>{{ item.duration }}: {{ item.description }}</li>
 		{% endfor %}
-		{% for item in site.data.news.old %}
-			<li>{{ item.duration }}: {{ item.description }}</li>
-		{% endfor %}
 	  </ul>
 	  <a href="/news" class="link">Old news</a>
 	  {% else %}
