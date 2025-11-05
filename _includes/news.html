@@ -7,12 +7,23 @@
 			<li>{{ item.duration }}: {{ item.description }}</li>
 		{% endfor %}
 	  </ul>
-	  {% if page.title == "Home" %}
-	  <a href="/news" class="link">Old news</a>
-	  {% else %}
 	  <p>Past:</p>
+	  {% if page.title == "Home" %}
 	  <ul>
 		{% for item in site.data.news.past %}
+			<li>{{ item.duration }}: {{ item.description }}</li>
+		{% endfor %}
+		{% for item in site.data.news.old %}
+			<li>{{ item.duration }}: {{ item.description }}</li>
+		{% endfor %}
+	  </ul>
+	  <a href="/news" class="link">Old news</a>
+	  {% else %}
+	  <ul>
+		{% for item in site.data.news.past %}
+			<li>{{ item.duration }}: {{ item.description }}</li>
+		{% endfor %}
+		{% for item in site.data.news.old %}
 			<li>{{ item.duration }}: {{ item.description }}</li>
 		{% endfor %}
 	  </ul>
