@@ -30,8 +30,7 @@ index:
     title: 'A Tutte-type canonical decomposition of 3- and 4-connected graphs',
     coauthors: {'kurkofka'},
     journal: 'accepted at SODA26',
-    arxiv: 'https://arxiv.org/abs/2504.00760',
-    year: 2025
+    arxiv: 'https://arxiv.org/abs/2504.00760'
 }
 - {
     title: 'A Recolouring Version of a Conjecture of Reed',
@@ -42,9 +41,8 @@ index:
 }
 - {
     title: 'Colouring the 1-skeleton of \(d\)-dimensional triangulations',
-    journal: 'Preprint',
-    arxiv: 'https://arxiv.org/abs/2409.11762',
-    year: 2024
+    journal: 'to appear: Innovations in Graph Theory',
+    arxiv: 'https://arxiv.org/abs/2409.11762'
 }
 - {
     title: 'Polychromatic Colorings of Geometric Hypergraphs via Shallow Hitting Sets',
