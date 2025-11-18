@@ -44,7 +44,8 @@ index:
     journal: 'Innovations in Graph Theory',
     arxiv: 'https://arxiv.org/abs/2409.11762',
     doi: 'https://doi.org/10.5802/igt.13',
-    doiText: 'Journal'
+    doiText: 'Journal',
+    year: 2025
 }
 - {
     title: 'Polychromatic Colorings of Geometric Hypergraphs via Shallow Hitting Sets',
