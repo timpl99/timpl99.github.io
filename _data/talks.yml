@@ -1,5 +1,17 @@
 index:
 - {
+    title: 'A Tutte-type canonical decomposition of 3- and 4-connected graphs',
+    date: '12th January 2026',
+    place: 'Vancouver',
+    seminar: 'ACM-SIAM Symposium on Discrete Algorithms'
+}
+- {
+    title: 'A Tutte-type canonical decomposition of 3- and 4-connected graphs',
+    date: '7th January 2026',
+    place: 'TU Bergakademie Freiberg',
+    seminar: 'Seminar Diskrete Mathematik und Algebra'
+}
+- {
     title: 'An approximate Tutte-decomposition for all connectivities II: The decomposition',
     date: '30th October 2025',
     place: 'Bertinoro',
