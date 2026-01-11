@@ -29,8 +29,10 @@ index:
 - {
     title: 'A Tutte-type canonical decomposition of 3- and 4-connected graphs',
     coauthors: {'kurkofka'},
-    journal: 'accepted at SODA26',
-    arxiv: 'https://arxiv.org/abs/2504.00760'
+    journal: 'SODA 2026',
+    arxiv: 'https://arxiv.org/abs/2504.00760',
+    doi: 'https://doi.org/10.1137/1.9781611978971.110',
+    doiText: 'Conference Proceedings'
 }
 - {
     title: 'A Recolouring Version of a Conjecture of Reed',
