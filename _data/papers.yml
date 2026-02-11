@@ -20,6 +20,12 @@ index:
 #    year: 2025
 #}
 - {
+    title: 'A characterisation of all vertex-transitive finite graphs of connectivity < 5',
+    coauthors: {'kurkofka'},
+    journal: 'Preprint',
+    arxiv: 'https://arxiv.org/abs/2602.09811'
+}
+- {
     title: 'A Structural Linear-Time Algorithm for Computing the Tutte Decomposition',
     coauthors: {'bourneuf'},
     journal: 'Preprint',
