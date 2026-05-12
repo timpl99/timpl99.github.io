@@ -1,5 +1,13 @@
 ---
 index:
+  - semester: Summer term 2025
+    exercises:
+      - name: 'Diskrete Strukturen 2: Kryptographie und Graphen'
+        link: https://bildungsportal.sachsen.de/opal/auth/RepositoryEntry/53973811202
+      - name: Grundlagen der Diskreten Mathematik und Algebra 2
+        link: https://bildungsportal.sachsen.de/opal/auth/RepositoryEntry/53973811202
+      - name: Probe-Uni Mathematik und Informatik
+        link: https://tu-freiberg.de/events/probe-uni-mathematik-und-informatik
   - semester: Winter term 2025
     exercises:
       - name: 'Algorithmic Graph Theory I'
