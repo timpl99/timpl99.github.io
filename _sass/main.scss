@@ -17,3 +17,17 @@ body a {
   color: blue !important;
   text-decoration: none;
 }
+.defense-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.defense-gallery img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+  border-radius: 5px;
+}
