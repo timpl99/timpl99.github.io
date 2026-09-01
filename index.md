@@ -3,7 +3,7 @@ layout: home
 title: "Home"
 ---
 
-I am a PhD student at the Freiberg University of Technology under supervision of <a href="https://j-carmesin.github.io/" class="link">Johannes Carmesin</a>.
+I am a postdoctoral researcher at the G-SCOP Laboratory in Grenoble, working with <a href="https://oc.g-scop.grenoble-inp.fr/esperet/" class="link">Louis Esperet</a>. Previously, I was a PhD student at the Freiberg University of Technology under supervision of <a href="https://j-carmesin.github.io/" class="link">Johannes Carmesin</a>.
 
 My research interests include:
 <ul>
