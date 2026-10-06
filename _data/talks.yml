@@ -1,4 +1,22 @@
 index:
+#- {
+#    title: 'A Tutte-type canonical decomposition of 3- and 4-connected graphs',
+#    date: 'tba',
+#    place: 'Université Clermont Auvergne',
+#    seminar: 'Journées Graphes et Algorithmes (JGA 2026)'
+#}
+#- {
+#    title: 'tba',
+#    date: '4th November 2026',
+#    place: 'TU Bergakademie Freiberg',
+#    seminar: 'Seminar Diskrete Mathematik und Algebra'
+#}
+- {
+    title: 'An approximate Tutte-decomposition for arbitrary connectivity',
+    date: '8th October 2026',
+    place: 'G-SCOP Grenoble',
+    seminar: 'Séminaire de Mathématiques Discrètes'
+}
 - {
     title: 'A Tutte-type canonical decomposition of 3- and 4-connected graphs',
     date: '12th January 2026',
