@@ -1,10 +1,10 @@
 index:
-#- {
-#    title: 'A Tutte-type canonical decomposition of 3- and 4-connected graphs',
-#    date: 'tba',
-#    place: 'Université Clermont Auvergne',
-#    seminar: 'Journées Graphes et Algorithmes (JGA 2026)'
-#}
+- {
+    title: 'A Tutte-type canonical decomposition of 3- and 4-connected graphs',
+    date: '17-20th November',
+    place: 'Université Clermont Auvergne',
+    seminar: 'Journées Graphes et Algorithmes (JGA 2026)'
+}
 - {
     title: 'Local Approximation Algorithms for Minimum Dominating Set',
     date: '4th November 2026',
@@ -21,7 +21,8 @@ index:
     title: 'A Tutte-type canonical decomposition of 3- and 4-connected graphs',
     date: '12th January 2026',
     place: 'Vancouver',
-    seminar: 'ACM-SIAM Symposium on Discrete Algorithms'
+    seminar: 'ACM-SIAM Symposium on Discrete Algorithms',
+    selected: true
 }
 - {
     title: 'A Tutte-type canonical decomposition of 3- and 4-connected graphs',
@@ -39,13 +40,15 @@ index:
     title: 'A Tutte-type canonical decomposition of 3- and 4-connected graphs',
     date: '10th October 2025',
     place: 'University of Bordeaux',
-    seminar: 'Graphs & Optimization seminar'
+    seminar: 'Graphs & Optimization seminar',
+    selected: true
 }
 - {
     title: 'A Tutte-type canonical decomposition of 4-connected graphs',
     date: '15th April 2025',
     place: 'University of Hamburg',
-    seminar: 'Forschungsseminar Diskrete Mathematik'
+    seminar: 'Forschungsseminar Diskrete Mathematik',
+    selected: true
 }
 - {
     title: 'Linear-time algorithms in graph connectivity',
@@ -57,7 +60,8 @@ index:
     title: 'Colouring the 1-skeleton of d-dimensional triangulations',
     date: '5th November 2024',
     place: 'Heidelberg University',
-    seminar: 'Research Seminar'
+    seminar: 'Research Seminar',
+    selected: true
 }
 - {
     title: 'Balanced colorings of geometric hypergraphs',
@@ -69,7 +73,8 @@ index:
     title: 'Polychromatic Colorings of Geometric Hypergraphs via Shallow Hitting Sets',
     date: '11th June 2024',
     place: 'Athens',
-    seminar: 'Symposium on Computational Geometry 2024'
+    seminar: 'Symposium on Computational Geometry 2024',
+    selected: true
 }
 - {
     title: 'Balanced colorings of geometric hypergraphs',
@@ -94,4 +99,5 @@ index:
     date: '3rd November 2023',
     place: 'London School of Economics',
     seminar: 'PhD Seminar on Combinatorics, Games and Optimisation',
+    selected: true
 }
