@@ -20,6 +20,12 @@ index:
 #    year: 2025
 #}
 - {
+    title: 'An approximate cactus-decomposition for vertex-connectivity ',
+    journal: 'Preprint',
+    arxiv: 'https://arxiv.org/abs/2611.01772',
+    coauthors: {'bourneuf', 'carmesin', 'kurkofka'}
+}
+- {
     title: 'A characterisation of all vertex-transitive finite graphs of connectivity < 5',
     coauthors: {'kurkofka'},
     journal: 'Preprint',
