@@ -1,8 +1,24 @@
 <div class="row mb-5">
   <div>
-    <h3 class="fw-bold border-bottom pb-3 mb-5">Talks</h3>
-	    {% for item in site.data.talks.index %}
-		  <p>{{ item.seminar }} - {{ item.date }} - {{ item.place }}<br><i>{{ item.title }}</i></p>
-	    {% endfor %}
+    <h3 class="fw-bold border-bottom pb-3 mb-5">
+      {% if include.all %}
+        All talks
+      {% else %}
+        Selected talks
+      {% endif %}
+    </h3>
+
+    {% for item in site.data.talks.index %}
+      {% if include.all or item.selected == true %}
+        <p>
+          {{ item.seminar }} - {{ item.date }} - {{ item.place }}<br>
+          <i>{{ item.title }}</i>
+        </p>
+      {% endif %}
+    {% endfor %}
+
+    {% unless include.all %}
+      <a href="{{ '/talks/' | relative_url }}">All talks</a>
+    {% endunless %}
   </div>
 </div>
