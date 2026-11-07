@@ -34,7 +34,8 @@ index:
     title: 'An approximate Tutte-decomposition for all connectivities II: The decomposition',
     date: '30th October 2025',
     place: 'Bertinoro',
-    seminar: 'Bertinoro Workshop on Algorithms and Graphs'
+    seminar: 'Bertinoro Workshop on Algorithms and Graphs',
+    selected: true
 }
 - {
     title: 'A Tutte-type canonical decomposition of 3- and 4-connected graphs',
