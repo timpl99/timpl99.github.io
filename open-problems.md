@@ -6,6 +6,40 @@ permalink: /open-problems/
 
 A selection of open problems that I find particularly interesting.
 
+#### Computing cactus-decompositions
+{: #computing-decompositions }
+
+<div class="row g-4 align-items-center mb-5" markdown="1">
+<div class="col-lg-7" markdown="1">
+
+The classical Tutte-decomposition can be computed in linear time. Can its extensions to higher connectivity also be computed efficiently? Below, *n* and *m* denote the numbers of vertices and edges, respectively.
+
+> **Conjecture (tetra-decomposition).** There is an algorithm that computes the tetra-separation decomposition of any finite 4-connected graph in time *O*(*n* + *m*).
+
+See [Conjecture 1.4 in my paper with Jan Kurkofka, *A Tutte-type canonical decomposition of 3- and 4-connected graphs*](https://arxiv.org/abs/2504.00760), SODA 2026.
+
+For every *k*, our approximate cactus-decomposition represents all *k*-separations of a *k*-connected graph up to an error bounded in terms of *k*.
+
+> **Conjecture (cactus-decomposition).** There exist computable functions *f* and *η* and an algorithm that, given integers *q*, *k* and a finite (*q*, *k* − 1)-unbreakable graph, constructs in time *f*(*q*, *k*)(*n* + *m*) a cactus-decomposition displaying separations of order at most *k*, such that every separation of order at most *k* is within edit-distance *η*(*q*, *k*) of a displayed separation.
+
+Here, a graph is *(*q*, *k* − 1)-unbreakable* if every separation of order at most *k* − 1 has at most *q* vertices on one side outside the separator. This includes all *k*-connected graphs when *q* = 0.
+
+See [Conjecture 1.3 in my paper with Romain Bourneuf, Johannes Carmesin and Jan Kurkofka, *An approximate cactus-decomposition for vertex-connectivity*](https://arxiv.org/abs/2611.01772).
+
+<div class="col-lg-5">
+  <figure class="mb-0 text-center">
+    <object
+      data="{{ '/assets/img/cactus-decomposition.pdf' | relative_url }}#view=Fit&toolbar=0&navpanes=0"
+      type="application/pdf"
+      class="d-block mx-auto"
+      style="width: 100%; max-width: 440px; height: 340px;">
+      <a href="{{ '/assets/img/cactus-decomposition.pdf' | relative_url }}">
+        View the cactus-decomposition figure (PDF)
+      </a>
+    </object>
+  </figure>
+</div>
+
 #### Colouring 2-complexes in 3-space
 {: #colouring-2-complexes }
 
