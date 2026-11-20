@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="300" viewBox="0 0 440 300">
+  <title>Four squares, each containing five points in three colours</title>
+  <g transform="translate(0,300) scale(1,-1)">
+    <g fill="none" stroke="#424242" stroke-width="0.9" stroke-linejoin="round">
+      <rect x="55" y="110" width="130" height="130"></rect>
+      <rect x="145" y="55" width="150" height="150"></rect>
+      <rect x="255" y="115" width="130" height="130"></rect>
+      <rect x="199" y="170" width="110" height="110"></rect>
+    </g>
+
+    <g fill="#d62828">
+      <circle cx="270" cy="192" r="3.25"></circle>
+      <circle cx="215" cy="95" r="3.25"></circle>
+      <circle cx="342" cy="170" r="3.25"></circle>
+      <circle cx="244" cy="260" r="3.25"></circle>
+      <circle cx="85" cy="150" r="3.25"></circle>
+      <circle cx="144" cy="222" r="3.25"></circle>
+    </g>
+
+    <g fill="#2166cc">
+      <circle cx="165" cy="150" r="3.25"></circle>
+      <circle cx="278" cy="145" r="3.25"></circle>
+      <circle cx="345" cy="224" r="3.25"></circle>
+      <circle cx="218" cy="235" r="3.25"></circle>
+      <circle cx="114" cy="175" r="3.25"></circle>
+      <circle cx="360" cy="275" r="3.25"></circle>
+    </g>
+
+    <g fill="#168348">
+      <circle cx="220" cy="190" r="3.25"></circle>
+      <circle cx="270" cy="225" r="3.25"></circle>
+      <circle cx="110" cy="210" r="3.25"></circle>
+      <circle cx="110" cy="65" r="3.25"></circle>
+    </g>
+  </g>
+</svg>

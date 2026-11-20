@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="370" viewBox="0 0 400 370">
+  <title>Colouring an interior chamber subdivision</title>
+  <g transform="translate(0,370) scale(1,-1)">
+    <g fill="#9e9e9e" fill-opacity="0.23">
+      <polygon points="200,350 25,90 375,100"></polygon>
+      <polygon points="200,350 25,90 217.65,175.85"></polygon>
+      <polygon points="200,350 375,100 217.65,175.85"></polygon>
+      <polygon points="25,90 375,100 217.65,175.85"></polygon>
+      <polygon points="200,350 25,90 170,25"></polygon>
+      <polygon points="200,350 375,100 170,25"></polygon>
+      <polygon points="25,90 375,100 170,25"></polygon>
+      <polygon points="200,350 170,25 217.65,175.85"></polygon>
+      <polygon points="25,90 170,25 217.65,175.85"></polygon>
+      <polygon points="375,100 170,25 217.65,175.85"></polygon>
+    </g>
+
+    <g fill="none" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 200 350 L 25 90" stroke="#d62828"></path>
+      <path d="M 200 350 L 375 100" stroke="#2166cc"></path>
+      <path d="M 200 350 L 170 25" stroke="#168348"></path>
+      <path d="M 25 90 L 170 25" stroke="#2166cc"></path>
+      <path d="M 375 100 L 170 25" stroke="#d62828"></path>
+    </g>
+
+    <g fill="none" stroke-width="1.35" stroke-dasharray="0.2 4.2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 25 90 L 173.40052 94.24001
+               M 179.39807 94.41137 L 189.04075 94.68688
+               M 195.03830 94.85824 L 375 100" stroke="#168348"></path>
+      <path d="M 200 350 L 217.65 175.85" stroke="#d62828"></path>
+      <path d="M 25 90 L 179.73758 158.95521
+               M 185.21805 161.39745 L 217.65 175.85" stroke="#2166cc"></path>
+      <path d="M 375 100 L 217.65 175.85" stroke="#168348"></path>
+      <path d="M 170 25 L 217.65 175.85" stroke="#d62828"></path>
+    </g>
+
+    <g fill="#15171c">
+      <circle cx="200" cy="350" r="2.7"></circle>
+      <circle cx="25" cy="90" r="2.7"></circle>
+      <circle cx="375" cy="100" r="2.7"></circle>
+      <circle cx="170" cy="25" r="2.7"></circle>
+      <circle cx="217.65" cy="175.85" r="3"></circle>
+    </g>
+  </g>
+</svg>
