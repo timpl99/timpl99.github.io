@@ -28,15 +28,14 @@ See [Conjecture 1.3 in my paper with Romain Bourneuf, Johannes Carmesin and Jan 
 
 <div class="col-lg-5">
   <figure class="mb-0 text-center">
-    <object
-      data="{{ '/assets/img/cactus-decomposition.pdf' | relative_url }}#view=Fit&toolbar=0&navpanes=0"
-      type="application/pdf"
-      class="d-block mx-auto"
-      style="width: 100%; max-width: 440px; height: 340px;">
-      <a href="{{ '/assets/img/cactus-decomposition.pdf' | relative_url }}">
-        View the cactus-decomposition figure (PDF)
-      </a>
-    </object>
+    <img src="{{ '/assets/img/cactus-decomposition.png' | relative_url }}"
+         class="img-fluid d-block mx-auto"
+         width="1750" height="789"
+         alt="A graph in black, with blue bags and a red decomposition cactus."
+         style="width: 100%; max-width: 440px; height: auto;">
+    <figcaption class="small text-muted mt-2">
+      A cactus-decomposition of a 2-connected graph.
+    </figcaption>
   </figure>
 </div>
 
