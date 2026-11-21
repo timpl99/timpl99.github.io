@@ -20,17 +20,17 @@ A selection of open problems that I find particularly interesting.
   </figcaption>
 </figure>
 
-The classical Tutte-decomposition can be computed in linear time. Can its extensions to higher connectivity also be computed efficiently? Below, *n* and *m* denote the numbers of vertices and edges, respectively.
+The classical Tutte-decomposition can be computed in linear time. Can its extensions to higher connectivity also be computed efficiently?
 
-> **Conjecture (tetra-decomposition).** There is an algorithm that computes the tetra-separation decomposition of any finite 4-connected graph in time *O*(*n* + *m*).
+> **Conjecture (tetra-decomposition).** There is an algorithm that computes the tetra-separation decomposition of any finite 4-connected graph in linear time.
 
-See [Conjecture 1.4 in my paper with Jan Kurkofka, *A Tutte-type canonical decomposition of 3- and 4-connected graphs*](https://arxiv.org/abs/2504.00760), SODA 2026.
+See Conjecture 1.4 in my paper with Jan Kurkofka, *A Tutte-type canonical decomposition of 3- and 4-connected graphs* (<a href="https://arxiv.org/abs/2504.00760" class="link">arXiv</a>), SODA 2026.
 
 For every *k*, our approximate cactus-decomposition represents all *k*-separations of a *k*-connected graph up to an error bounded in terms of *k*.
 
-> **Question (cactus-decomposition).** For fixed *k*, can the approximate cactus-decomposition from [our paper](https://arxiv.org/abs/2611.01772) be computed in linear time?
+> **Question (cactus-decomposition).** For fixed *k*, can the approximate cactus-decomposition for *k*-connected graphs from our paper be computed in linear time?
 
-See Conjecture 1.3 in my paper with Romain Bourneuf, Johannes Carmesin and Jan Kurkofka, [*An approximate cactus-decomposition for vertex-connectivity*](https://arxiv.org/abs/2611.01772).
+See Conjecture 1.3 in my paper with Romain Bourneuf, Johannes Carmesin and Jan Kurkofka, *An approximate cactus-decomposition for vertex-connectivity* (<a href="https://arxiv.org/abs/2611.01772" class="link">arXiv</a>).
 
 </div>
 
@@ -49,7 +49,7 @@ See Conjecture 1.3 in my paper with Romain Bourneuf, Johannes Carmesin and Jan K
 
 **Known bounds.** Four colours always suffice, and some embedded simplicial 2-complexes cannot be coloured with two colours without a monochromatic face. Hence the smallest number of colours that works for all such complexes is either three or four.
 
-See [Question 8.1 in my paper *Colouring the 1-skeleton of d-dimensional triangulations*](https://igt.centre-mersenne.org/item/10.5802/igt.13.pdf#page=23), Innovations in Graph Theory **2** (2025), 275–299.
+See Question 8.1 in my paper *Colouring the 1-skeleton of d-dimensional triangulations* (<a href="https://doi.org/10.5802/igt.13" class="link">journal version</a>), Innovations in Graph Theory **2** (2025), 275–299.
 
 </div>
 
@@ -72,6 +72,31 @@ All squares below are axis-aligned and may have arbitrary side lengths.
 
 A positive answer to the first question would imply a positive answer to the second.
 
-See [Table 1 and Section 5 of my paper with Torsten Ueckerdt, *Polychromatic Colorings of Geometric Hypergraphs via Shallow Hitting Sets*](https://drops.dagstuhl.de/storage/00lipics/lipics-vol293-socg2024/LIPIcs.SoCG.2024.74/LIPIcs.SoCG.2024.74.pdf#page=12), SoCG 2024, **293**, 74:1–74:14.
+See Table 1 and Section 5 in my paper with Torsten Ueckerdt, *Polychromatic Colorings of Geometric Hypergraphs via Shallow Hitting Sets* (<a href="https://doi.org/10.4230/LIPIcs.SoCG.2024.74" class="link">conference version</a>), SoCG 2024, **293**, 74:1–74:14.
+
+</div>
+
+<h3 id="solved-problems" class="fw-bold border-bottom pb-3 mb-5">Solved problems</h3>
+
+#### Shallow hitting edge sets in regular hypergraphs
+{: #shallow-hitting-edge-sets }
+
+<div class="problem-section" markdown="1">
+
+A set of edges of a hypergraph is a *t*-shallow hitting edge set if every vertex belongs to at least one and at most *t* of the selected edges.
+
+> **Question.** Is there an absolute constant *C* such that, for every integer *r* ≥ 2, every finite *r*-uniform regular hypergraph has a (*C* log *r*)-shallow hitting edge set?
+
+In our paper, we proved a logarithmic lower bound and a linear upper bound for the smallest guaranteed shallowness.
+
+See Section 5 in my paper with Torsten Ueckerdt, *Shallow Hitting Edge Sets in Uniform Hypergraphs* (<a href="https://arxiv.org/abs/2307.05757" class="link">arXiv</a>).
+
+<strong class="text-danger">Solved (2026).</strong> Noga Alon, Penny Haxell, Aleksa Milojević and Jacques Verstraëte proved the following.
+
+> **Theorem.** For every integer *r* ≥ 2, every finite *r*-uniform regular hypergraph has a (100 log *r*)-shallow hitting edge set.
+
+Together with our lower bound, this establishes that the optimal guaranteed shallowness has order Θ(log *r*).
+
+See Theorem 1.2 in *Spanning subhypergraphs with degree constraints* (<a href="https://arxiv.org/abs/2609.13002" class="link">arXiv</a>).
 
 </div>
