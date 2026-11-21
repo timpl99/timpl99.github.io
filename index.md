@@ -15,3 +15,6 @@ My research interests include:
 	<li> Geometric graph theory </li>
 	<li> Algorithms and NP-hardness </li>
 </ul>
+
+Here are some <a href="{{ '/open-problems/' | relative_url }}" class="link">open problems</a> that I find particularly interesting.
+

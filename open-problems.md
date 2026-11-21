@@ -83,7 +83,7 @@ See Table 1 and Section 5 in my paper with Torsten Ueckerdt, *Polychromatic Colo
 
 <div class="problem-section" markdown="1">
 
-A set of edges of a hypergraph is a *t*-shallow hitting edge set if every vertex belongs to at least one and at most *t* of the selected edges.
+A set of edges in a hypergraph is a *t*-shallow hitting edge set if every vertex belongs to at least one and at most *t* of the selected edges.
 
 > **Question.** Is there an absolute constant *C* such that, for every integer *r* ≥ 2, every finite *r*-uniform regular hypergraph has a (*C* log *r*)-shallow hitting edge set?
 
