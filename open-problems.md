@@ -9,8 +9,16 @@ A selection of open problems that I find particularly interesting.
 #### Computing tetra- and cactus-decompositions
 {: #computing-decompositions }
 
-<div class="row g-4 align-items-start mb-5 problem-row" markdown="1">
-<div class="col-12 col-xl-7" markdown="1">
+<div class="problem-section" markdown="1">
+
+<figure class="problem-figure">
+  <img src="{{ '/assets/img/cactus-decomposition.png' | relative_url }}"
+       width="1750" height="789"
+       alt="A graph in black, with blue bags and a red decomposition cactus.">
+  <figcaption>
+    A cactus-decomposition of a 2-connected graph.
+  </figcaption>
+</figure>
 
 The classical Tutte-decomposition can be computed in linear time. Can its extensions to higher connectivity also be computed efficiently? Below, *n* and *m* denote the numbers of vertices and edges, respectively.
 
@@ -20,32 +28,22 @@ See [Conjecture 1.4 in my paper with Jan Kurkofka, *A Tutte-type canonical decom
 
 For every *k*, our approximate cactus-decomposition represents all *k*-separations of a *k*-connected graph up to an error bounded in terms of *k*.
 
-> **Conjecture (cactus-decomposition).** There exist computable functions *f* and *η* and an algorithm that, given integers *q*, *k* and a finite (*q*, *k* − 1)-unbreakable graph, constructs in time *f*(*q*, *k*)(*n* + *m*) a cactus-decomposition displaying separations of order at most *k*, such that every separation of order at most *k* is within edit-distance *η*(*q*, *k*) of a displayed separation.
+> **Question (cactus-decomposition).** For fixed parameters, can the approximate cactus-decomposition from [our paper](https://arxiv.org/abs/2611.01772) be computed in linear time?
 
-Here, a graph is (*q*, *k* − 1)-unbreakable if every separation of order at most *k* − 1 has at most *q* vertices on one side outside the separator. This includes all *k*-connected graphs when *q* = 0.
+See Conjecture 1.3 in my paper with Romain Bourneuf, Johannes Carmesin and Jan Kurkofka, [*An approximate cactus-decomposition for vertex-connectivity*](https://arxiv.org/abs/2611.01772).
 
-See [Conjecture 1.3 in my paper with Romain Bourneuf, Johannes Carmesin and Jan Kurkofka, *An approximate cactus-decomposition for vertex-connectivity*](https://arxiv.org/abs/2611.01772).
-
-</div>
-<div class="col-12 col-xl-5">
-  <figure class="mb-0 text-center">
-    <img src="{{ '/assets/img/cactus-decomposition.png' | relative_url }}"
-         class="img-fluid d-block mx-auto"
-         width="1750" height="789"
-         alt="A graph in black, with blue bags and a red decomposition cactus."
-         style="width: 100%; max-width: 440px; height: auto;">
-    <figcaption class="small text-muted mt-2">
-      A cactus-decomposition of a 2-connected graph.
-    </figcaption>
-  </figure>
-</div>
 </div>
 
 #### Colouring 2-complexes in 3-space
 {: #colouring-2-complexes }
 
-<div class="row g-4 align-items-start mb-5 problem-row" markdown="1">
-<div class="col-12 col-xl-7" markdown="1">
+<div class="problem-section" markdown="1">
+
+<figure class="problem-figure">
+  <img src="{{ '/assets/img/2-complex.svg' | relative_url }}"
+       width="400" height="370"
+       alt="A tetrahedron with its inner chamber subdivided, and edges coloured red, blue and green.">
+</figure>
 
 > **Question.** Can the edges of every finite simplicial 2-complex embedded in ℝ<sup>3</sup> be coloured with three colours so that every triangular face has edges of at least two colours?
 
@@ -54,22 +52,17 @@ See [Conjecture 1.3 in my paper with Romain Bourneuf, Johannes Carmesin and Jan 
 See [Question 8.1 in my paper *Colouring the 1-skeleton of d-dimensional triangulations*](https://igt.centre-mersenne.org/item/10.5802/igt.13.pdf#page=23), Innovations in Graph Theory **2** (2025), 275–299.
 
 </div>
-<div class="col-12 col-xl-5">
-  <figure class="mb-0 text-center">
-    <img src="{{ '/assets/img/2-complex.svg' | relative_url }}"
-         class="img-fluid d-block mx-auto"
-         width="400" height="370"
-         alt="A tetrahedron with its inner chamber subdivided, and edges coloured red, blue and green."
-         style="width: 100%; max-width: 440px; height: auto;">
-  </figure>
-</div>
-</div>
 
 #### Shallow hitting sets and polychromatic colourings for squares
 {: #squares }
 
-<div class="row g-4 align-items-start mb-5 problem-row" markdown="1">
-<div class="col-12 col-xl-7" markdown="1">
+<div class="problem-section" markdown="1">
+
+<figure class="problem-figure">
+  <img src="{{ '/assets/img/squares.svg' | relative_url }}"
+       width="440" height="300"
+       alt="Points coloured with three colours and four axis-aligned squares, each containing five points and all three colours.">
+</figure>
 
 All squares below are axis-aligned and may have arbitrary side lengths.
 
@@ -81,14 +74,4 @@ A positive answer to the first question would imply a positive answer to the sec
 
 See [Table 1 and Section 5 of my paper with Torsten Ueckerdt, *Polychromatic Colorings of Geometric Hypergraphs via Shallow Hitting Sets*](https://drops.dagstuhl.de/storage/00lipics/lipics-vol293-socg2024/LIPIcs.SoCG.2024.74/LIPIcs.SoCG.2024.74.pdf#page=12), SoCG 2024, **293**, 74:1–74:14.
 
-</div>
-<div class="col-12 col-xl-5">
-  <figure class="mb-0 text-center">
-    <img src="{{ '/assets/img/squares.svg' | relative_url }}"
-         class="img-fluid d-block mx-auto"
-         width="440" height="300"
-         alt="Points coloured with three colours and four axis-aligned squares, each containing five points and all three colours."
-         style="width: 100%; max-width: 440px; height: auto;">
-  </figure>
-</div>
 </div>
