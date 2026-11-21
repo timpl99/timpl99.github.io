@@ -28,7 +28,7 @@ See [Conjecture 1.4 in my paper with Jan Kurkofka, *A Tutte-type canonical decom
 
 For every *k*, our approximate cactus-decomposition represents all *k*-separations of a *k*-connected graph up to an error bounded in terms of *k*.
 
-> **Question (cactus-decomposition).** For fixed parameters, can the approximate cactus-decomposition from [our paper](https://arxiv.org/abs/2611.01772) be computed in linear time?
+> **Question (cactus-decomposition).** For fixed *k*, can the approximate cactus-decomposition from [our paper](https://arxiv.org/abs/2611.01772) be computed in linear time?
 
 See Conjecture 1.3 in my paper with Romain Bourneuf, Johannes Carmesin and Jan Kurkofka, [*An approximate cactus-decomposition for vertex-connectivity*](https://arxiv.org/abs/2611.01772).
 
