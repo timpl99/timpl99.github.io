@@ -6,8 +6,30 @@ permalink: /open-problems/
 
 A selection of open problems that I find particularly interesting.
 
-#### Computing tetra- and cactus-decompositions
-{: #computing-decompositions }
+#### Computing tetra-decompositions
+{: #computing-tetra-decompositions }
+
+<div class="problem-section" markdown="1">
+
+<figure class="problem-figure">
+  <img src="{{ '/assets/img/tetra-decomposition.png' | relative_url }}"
+       width="1650" height="883"
+       alt="A tetra-separation decomposition, with a quasi-5-connected part and three attached parts.">
+  <figcaption>
+    A tetra-separation decomposition of a 4-connected graph.
+  </figcaption>
+</figure>
+
+The classical Tutte-decomposition can be computed in linear time. Does the same hold for the tetra-separation decomposition of 4-connected graphs?
+
+> **Conjecture.** There is an algorithm that computes the tetra-separation decomposition of any finite 4-connected graph in linear time.
+
+See Conjecture 1.4 in my paper with Jan Kurkofka, *A Tutte-type canonical decomposition of 3- and 4-connected graphs* (<a href="https://arxiv.org/abs/2504.00760" class="link">arXiv</a>), SODA 2026.
+
+</div>
+
+#### Computing cactus-decompositions
+{: #computing-cactus-decompositions }
 
 <div class="problem-section" markdown="1">
 
@@ -20,15 +42,9 @@ A selection of open problems that I find particularly interesting.
   </figcaption>
 </figure>
 
-The classical Tutte-decomposition can be computed in linear time. Can its extensions to higher connectivity also be computed efficiently?
-
-> **Conjecture (tetra-decomposition).** There is an algorithm that computes the tetra-separation decomposition of any finite 4-connected graph in linear time.
-
-See Conjecture 1.4 in my paper with Jan Kurkofka, *A Tutte-type canonical decomposition of 3- and 4-connected graphs* (<a href="https://arxiv.org/abs/2504.00760" class="link">arXiv</a>), SODA 2026.
-
 For every *k*, our approximate cactus-decomposition represents all *k*-separations of a *k*-connected graph up to an error bounded in terms of *k*.
 
-> **Question (cactus-decomposition).** For fixed *k*, can the approximate cactus-decomposition for *k*-connected graphs from our paper be computed in linear time?
+> **Question.** For fixed *k*, can the approximate cactus-decomposition for *k*-connected graphs from our paper be computed in linear time?
 
 See Conjecture 1.3 in my paper with Romain Bourneuf, Johannes Carmesin and Jan Kurkofka, *An approximate cactus-decomposition for vertex-connectivity* (<a href="https://arxiv.org/abs/2611.01772" class="link">arXiv</a>).
 
