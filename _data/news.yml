@@ -1,9 +1,11 @@
 ---
 upcoming:
-  - description: participant at the 28e Journées Graphes et Algorithmes (<a href="https://jga2026.sciencesconf.org/" class="link">JGA 2026</a>) in Clermont-Ferrand
-    duration: Nov 17-20, 2026
+  - description: Research visit with <a href="https://www.labri.fr/perso/mbonamy/" class="link">Marthe Bonamy</a> in Bordeaux (France)
+    duration: Nov 30 - Dec 8, 2026
 
 past:
+  - description: participant at the 28e Journées Graphes et Algorithmes (<a href="https://jga2026.sciencesconf.org/" class="link">JGA 2026</a>) in Clermont-Ferrand (France)
+    duration: Nov 17-20, 2026
   - description: starting a postdoc position with <a href="https://oc.g-scop.grenoble-inp.fr/esperet/" class="link">Louis Esperet</a> in Grenoble
     duration: Sep 1, 2026
   - description: completed my PhD with summa cum laude (with distinction) (<a href="/phd-defense" class="link">photos</a>, <a href="/assets/pdf/PhD-defense.pdf" class="link">slides</a>)
